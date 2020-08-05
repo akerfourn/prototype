@@ -2,15 +2,16 @@
   "name": "prototype",
   "version": "0.0.0",
   "description": "Prototype make project setup easy and flexible.",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "bin": {
-    "prototype": "cli.js"
+    "prototype": "./bin/cli.js"
   },
   "author": "Adrien KERFOURN",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
   },
+  "preferGlobal": true,
   "devDependencies": {
     "typescript": "^3.9.7"
   }
