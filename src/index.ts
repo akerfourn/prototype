@@ -1,3 +1,7 @@
+import { dir } from "console";
+
 export function main() {
-  console.log("Hello world");
+  const args = process.argv.slice(2);
+  const directory = process.cwd();
+  console.log(directory);
 }
