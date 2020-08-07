@@ -1,7 +1,7 @@
 {
   "name": "prototype",
   "version": "0.0.0",
-  "description": "Prototype make project setup easy and flexible.",
+  "description": "Prototype make typescript project setup easy and flexible.",
   "main": "./lib/index.js",
   "bin": {
     "prototype": "./bin/cli.js"
