@@ -9,11 +9,17 @@
   "author": "Adrien KERFOURN",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "clean-lib": "rimraf lib/*",
+    "build": "$npm_execpath run clean-lib && tsc"
   },
   "preferGlobal": true,
   "devDependencies": {
     "@types/node": "^14.0.27",
+    "@types/prompts": "^2.0.8",
+    "rimraf": "^3.0.2",
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "prompts": "^2.3.2"
   }
 }
